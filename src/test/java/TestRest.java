@@ -19,7 +19,7 @@ public class TestRest {
 // Проверки
                 .then()
                 .statusCode(200)
-                .body("data", equalTo("Пока"))
+                .body("data", equalTo("Привет"))
         ;
     }
 }
